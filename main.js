@@ -49,7 +49,7 @@ global.db = new Low(
       new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`)
 )
 
- global.db = new Low(new mongoDB('mongodb+srv://Ainemd:<password>@ainemd.wgm2j.mongodb.net/?retryWrites=true&w=majority'))
+ global.db = new Low(new mongoDB('mongodb+srv://Ainemd:<Aine123>@ainemd.wgm2j.mongodb.net/?retryWrites=true&w=majority'))
 
 global.DATABASE = global.db // Backwards Compatibility
 global.loadDatabase = async function loadDatabase() {
