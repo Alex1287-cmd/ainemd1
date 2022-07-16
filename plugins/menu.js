@@ -41,8 +41,8 @@ Hai, %ucapan 👋
 *Nama:* %name📇
 *Level:* %level📑
 *Exp:* %exp🧬
-*Money:* {$money}💰
-*Atm:* {$bank}💳
+*Money:* ${money}💰
+*Atm:* ${bank}💳
 *Limit:* %limit🎫
  
 Menu ada di bawah :⤵
