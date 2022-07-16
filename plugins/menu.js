@@ -35,15 +35,15 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hai, %ucapan kak👋
+Hai, %ucapan 👋
 
     Stats📊
-*Nama:*%nama📇
-*Level:*%level📑
-*XP:*%xp🧬
-*Uang:*%money💰
-*Atm mu:*%atm💳
-*Limit:*%limit🎫
+*Nama:* %nama📇
+*Level:* %level📑
+*XP:* %xp🧬
+*Uang:* %money💰
+*Atm mu:* %bank💳
+*Limit:* %limit🎫
  
 Menu ada di bawah :⤵
 %readmore`.trimStart(),
