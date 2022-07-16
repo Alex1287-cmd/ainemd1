@@ -37,9 +37,9 @@ const defaultMenu = {
   before: `
 Hai, %ucapan kak👋
 
-    Stats🔮
+    Stats📊
 *Nama:*%nama📇
-*Level:*%level📊
+*Level:*%level📑
 *XP:*%xp🧬
 *Uang:*%money💰
 *Atm mu:*%atm💳
