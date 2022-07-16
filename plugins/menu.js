@@ -35,18 +35,22 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hai kak, %ucapan  👋
+Hai, %ucapan kak👋
 
-    Stats 
-*XP:* %xp
-*Level:* %level
-*Limit:* %limit
-
+    Stats🔮
+*Nama:*%nama📇
+*Level:*%level📊
+*XP:*%xp🧬
+*Uang:*%money💰
+*Atm mu:*%atm💳
+*Limit:*%limit🎫
+ 
+Menu ada di bawah :⤵
 %readmore`.trimStart(),
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
-  after: `*Made by ♡*
+  after: `*Made by Zenzz♡*
 *%npmname* | %version
 ${'```%npmdesc```'}
 `,
