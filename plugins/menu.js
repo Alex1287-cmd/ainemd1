@@ -39,10 +39,10 @@ Hai, %ucapan 👋
 
     My Stats📊
 *Nama:* %name📇
+*Role:* %role
 *Level:* %level📑
 *Exp:* %exp🧬
-*Money:* ${money}💰
-*Atm:* ${bank}💳
+*Money:* %money💰
 *Limit:* %limit🎫
  
 Menu ada di bawah :⤵
@@ -151,7 +151,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       totalexp: exp,
       xp4levelup: max - exp,
       github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
-      level, limit, name, weton, week, date, dateIslamic, wib, wit, wita, time, totalreg, rtotalreg, role,
+      level, limit, money, name, weton, week, date, dateIslamic, wib, wit, wita, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
