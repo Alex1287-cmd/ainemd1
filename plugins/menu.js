@@ -40,7 +40,7 @@ Hai, %ucapan 👋
     My Stats📊
 *Nama:* %name📇
 *Level:* %level📑
-*Exp:* %xp🧬
+*Exp:* %exp🧬
 *Money:* {$money}💰
 *Atm:* {$bank}💳
 *Limit:* %limit🎫
