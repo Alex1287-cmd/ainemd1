@@ -37,12 +37,12 @@ const defaultMenu = {
   before: `
 Hai, %ucapan 👋
 
-    Stats📊
+    My Stats📊
 *Nama:* %name📇
 *Level:* %level📑
-*XP:* %exp🧬
-*Uang:* %uang💰
-*Atm:* %atm💳
+*Exp:* %xp🧬
+*Money:* {$money}💰
+*Atm:* {$bank}💳
 *Limit:* %limit🎫
  
 Menu ada di bawah :⤵
