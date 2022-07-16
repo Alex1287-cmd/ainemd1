@@ -40,9 +40,9 @@ Hai, %ucapan 👋
     Stats📊
 *Nama:* %name📇
 *Level:* %level📑
-*XP:* %xp🧬
-*Money:* %money💰
-*Atm:* %bank💳
+*XP:* %exp🧬
+*Uang:* %uang💰
+*Atm:* %atm💳
 *Limit:* %limit🎫
  
 Menu ada di bawah :⤵
