@@ -42,7 +42,7 @@ Hai, %ucapan 👋
 *Rank:* %role 
 *Level:* %level📑
 *Exp:* %exp🧬
-*Money:* 0💰
+*Uang:* %money💰
 *Limit:* %limit🎫
  
 Menu ada di bawah :⤵
@@ -58,7 +58,7 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p }) => {
   try {
     let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
-    let { exp, limit, level, role } = global.db.data.users[m.sender]
+    let { exp, limit, level, role,money } = global.db.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
     let name = await conn.getName(m.sender)
     let d = new Date(new Date + 3600000)
